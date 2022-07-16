@@ -1,3 +1,12 @@
+face-detection-yolov5:
+  description: This model is used to detect faces in pictures. This version of the
+    model has an accuracy of 91%.
+  labels:
+  - images
+  - face detection
+  - yolov5
+  path: models/face-detection-yolov5.h5
+  type: model
 image-classifier-model:
   description: This model is used to classify images of different objects submitted
     by users. This version of the model has an accuracy of 95%.
