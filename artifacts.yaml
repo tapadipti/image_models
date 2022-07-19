@@ -1,3 +1,12 @@
+face-detection-rcnn:
+  description: This model is used to detect faces in pictures. This version of the
+    model has an accuracy of 91%.
+  labels:
+  - images
+  - face detection
+  - rcnn
+  path: models/face-detection-rcnn.h5
+  type: model
 face-detection-yolov5:
   description: This model is used to detect faces in pictures. This version of the
     model has an accuracy of 91%.
