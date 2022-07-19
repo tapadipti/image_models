@@ -17,7 +17,7 @@ def main():
         "image-classifier-model",
         sample_data=data,
         description="This model is used to classify images of different objects \
-            submitted by users. This version of the model has an accuracy of 92%.",
+            submitted by users. This version of the model has an accuracy of 92.5%.",
     )
 
 
