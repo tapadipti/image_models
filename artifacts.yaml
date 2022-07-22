@@ -25,3 +25,8 @@ image-classifier-model:
   - sklearn
   path: .mlem/model/image-classifier-model
   type: model
+image-synthesis-model:
+  labels:
+  - image-synthesis
+  path: models/image-synthesis-model.h5
+  type: model
