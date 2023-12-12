@@ -8,3 +8,12 @@ artifacts:
     - sklearn
     - image-classification
     - random-forest
+  face-detection-yolov5:
+    path: face-detection-yolov5
+    desc: Detect faces in pictures. This version of the model has an accuracy of 91%.
+    type: model
+    labels:
+    - images
+    - cv
+    - dafce-detection
+    - yolov5
