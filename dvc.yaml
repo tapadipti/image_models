@@ -1,0 +1,10 @@
+artifacts:
+  image-classifier-model:
+    path: image-classifier-model
+    desc: This model is used to classify images of different objects submitted by
+      users. This version of the model has an accuracy of 92%.
+    type: model
+    labels:
+    - sklearn
+    - image-classification
+    - random-forest
